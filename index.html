@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="moments.js"></script>
   <script>
 $(document).ready(function(){
 
@@ -13,9 +14,9 @@ $(document).ready(function(){
 
     $(".startButton").on('click', function(){
 
-        var startTime = new Date();
-        var endTime = new Date();
-        var totalTime = endTime - startTime;
+        var startTime = moment().format('MMMM Do YYYY, h:mm:ss a');
+        var endTime = moment().format('MMMM Do YYYY, h:mm:ss a');
+
 
         $(this).text(function (_, text){
             return text === "Stop Nursing" ? "Start Nursing" : "Stop Nursing";
@@ -29,7 +30,7 @@ $(document).ready(function(){
 
             $(".timerFinish").text("You finished nursing at " + endTime);
 
-            $(".totalTime").text("Total nursing time was " + totalTime);
+            $(".totalTime").text("Total nursing time was " + (endTime - startTime));
 
       }
   });
