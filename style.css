@@ -1,99 +1,121 @@
-/*
-salmon: #CC4444
-jet: #2F2F35
-gray: #C6C7CE
-*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="JS/animations.js"></script>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway|Righteous" rel="stylesheet">
+  <title>Document</title>
+</head>
 
-html body{
-  background: #2F2F35;
-  color: #CC4444;
-}
+<body>
 
-.navigationToggle {
-  background: #2F2F35;
-  color: #CC4444;
-  height: 70px;
-  width: 100vw;
-  text-align: center;
-  position: fixed;
-  padding-top: 2px;
-  bottom: 0;
-  border-top: 2px solid #CC4444;
-  border-right: 0px;
-  border-bottom: 0px;
-  border-left: 0px;
-  z-index: 2;
-}
 
-.navigationSection {
-   height: 0vh;
-   width: 100vw;
-   position: fixed;
-   z-index: 1;
-   top: 0;
-   left: 0;
-   background-color: #CC4444;
-   overflow: hidden;
-   transition: 0.3s;
-   text-align: left;
-   color: #0f380f;
-   font-family: 'Righteous', cursive;
-   font-size: 9vh;
-}
-
-#globe{
-  font-size: 30vh;
-}
-.visible{
-  height: 100vh;
-}
-
-.color-swap{
-  background-color: #CC4444;
-  border-color: #2F2F35;
-  color: #2F2F35;
-}
-
-.nav-list{
-  list-style-type: none;
-  width: 100vw;
-  text-align: center;
-  padding-left: 0;
-}
-
-li {
-  display: block;
-}
-
-li a {
-    display: block;
-    width: 100vw;
-    color: #2F2F35;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #2F2F35;
-    color: #C6C7CE;
-    text-decoration: none;
-    transition: background-color .2s ease-in;
-}
-
-.sectionA{
-    background-color: #2F2F35;
-    color: #CC4444;
-    height: 100vh;
-    margin: auto;
-    text-align: center;
-
-}
-
-h1, h2, h3 {
-  font-family: 'Righteous', cursive;
-}
+<a href="#" class="toggle">
+<div class="navigationToggle">
+<span class="glyphicon glyphicon-menu-hamburger"></span>
+</div>
+</a>
 
 
 
-p, h4, table {
-  font-family: 'Raleway', monospace;
-}
+
+<div id="bottomNav" class="navigationSection">
+  <ul class="nav-list">
+    <li><a href="#home" class="toggle">Home</a></li>
+    <li><a href="#about" class="toggle">About</a></li>
+    <li><a href="#skills" class="toggle">Skills</a></li>
+    <li><a href="#portfolio" class="toggle">Portfolio</a></li>
+    <li><a href="#personal" class="toggle">Personal</a></li>
+    <li><a href="#contact" class="toggle">Contact</a></li>
+  </ul>
+</div>
+
+
+  <div id="home" class="col-sm-6 sectionA">
+    <h1>This is where I type</h1>
+    <h3><span id="msgOne"/></h3>
+    <p id="globe"><span class="glyphicon glyphicon-globe"></span></p>
+  </div>
+
+  <div id="about" class="col-sm-6 sectionB">
+    <h1>Who am I?</h1>
+    <p>Professionally, I am a self-taught web developer exploring the world of JavaScript. Somewhere between web design and web development you can often find me. Had I known that mucking around with the innards of a website could be a career path, I would have taken MySpace page layouts a little more seriously.</p>
+  </div>
+
+    <div id="skills" class="col-sm-6 sectionA">
+      <h1>Skills</h1>
+
+ <table class="table">
+   <thead>
+     <tr>
+       <th><h4><span class="glyphicon glyphicon-folder-open"></span> Developer</h4></th>
+       <th><h4><span class="glyphicon glyphicon-erase"></span> Design</h4></th>
+       <th><h4><span class="glyphicon glyphicon-briefcase"></span> Professional</h4></th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td>HTML5</td>
+       <td>Photoshop</td>
+       <td>Manager Exp</td>
+     </tr>
+
+     <tr>
+       <td>CSS3</td>
+       <td>Illustrator</td>
+       <td>Sales Leader</td>
+     </tr>
+
+     <tr>
+       <td>JavaScript (ES6)</td>
+       <td>InDesign</td>
+       <td>Design Oriented</td>
+     </tr>
+
+     <tr>
+       <td>JQuery</td>
+       <td>XD</td>
+       <td>Technical Writing</td>
+     </tr>
+
+     <tr>
+       <td>Bootstrap 4</td>
+       <td>Muse</td>
+       <td>Change Driven</td>
+     </tr>
+
+     <tr>
+       <td>More to come</td>
+       <td></td>
+       <td>Continued Learning</td>
+     </tr>
+   </tbody>
+   </table>
+</div>
+
+  <div id="portfolio" class="col-sm-6 sectionB">
+        <h1>Portfolio</h1>
+
+
+        </div>
+
+
+
+      <div id="personal" class="col-sm-6 sectionA">
+        <h1>Fun Stuff</h1>
+        <p>Professionally, I am a self-taught web developer exploring the world of JavaScript. Somewhere between web design and web development you can often find me. Had I known that mucking around with the innards of a website could be a career path, I would have taken my MySpace page layouts a little more seriously.</p>
+      </div>
+
+  <div id="contact" class="col-sm-6 sectionB">
+    <h1>Contact</h1>
+          <p>Professionally, I am a self-taught web developer exploring the world of JavaScript. Somewhere between web design and web development you can often find me. Had I known that mucking around with the innards of a website could be a career path, I would have taken my MySpace page layouts a little more seriously.</p>
+        </div>
+
+
+</body>
+</html>
