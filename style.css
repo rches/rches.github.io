@@ -12,7 +12,7 @@ html body{
 .navigationToggle {
   background: #2F2F35;
   color: #CC4444;
-  height: 45px;
+  height: 70px;
   width: 100vw;
   text-align: center;
   position: fixed;
@@ -38,7 +38,7 @@ html body{
    text-align: left;
    color: #0f380f;
    font-family: 'Righteous', cursive;
-   font-size: 10vh;
+   font-size: 9vh;
 }
 
 #globe{
@@ -83,4 +83,17 @@ li a:hover {
     background-color: #2F2F35;
     color: #CC4444;
     height: 100vh;
+    margin: auto;
+    text-align: center;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Righteous', cursive;
+}
+
+
+
+p, h4, table {
+  font-family: 'Raleway', monospace;
 }
