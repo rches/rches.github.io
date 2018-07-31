@@ -9,8 +9,6 @@ html body{
   color: #CC4444;
 }
 
-/*Navigation pieces*/
-
 .navigationToggle {
   background: #2F2F35;
   color: #CC4444;
@@ -43,6 +41,13 @@ html body{
    font-size: 9vh;
 }
 
+#globe{
+  font-size: 30vh;
+}
+.visible{
+  height: 100vh;
+}
+
 .color-swap{
   background-color: #CC4444;
   border-color: #2F2F35;
@@ -56,32 +61,6 @@ html body{
   padding-left: 0;
 }
 
-
-li {
-  display: block;
-  list-style: none;
-}
-
-li a {
-    display: block;
-    width: 100vw;
-    color: #2F2F35;
-    text-decoration: none;
-}
-
-li a:hover, a:active {
-    background-color: #2F2F35;
-    color: #C6C7CE;
-    text-decoration: none;
-    transition: background-color .2s ease-in;
-}
-
-/*first panel Globe*/
-#globe{
-  font-size: 30vh;
-}
-
-/*portfolio + contact buttons */
 .port-buttons {
   font-size: 20vh;
   display: block;
@@ -102,7 +81,25 @@ li a:hover, a:active {
   transition: background-color .2s ease-in;
 }
 
-/*Body, section and header styling and formatting*/
+li {
+  display: block;
+  list-style: none;
+}
+
+li a {
+    display: block;
+    width: 100vw;
+    color: #2F2F35;
+    text-decoration: none;
+}
+
+li a:hover, a:active {
+    background-color: #2F2F35;
+    color: #C6C7CE;
+    text-decoration: none;
+    transition: background-color .2s ease-in;
+}
+
 .sectionA{
     background-color: #2F2F35;
     color: #CC4444;
