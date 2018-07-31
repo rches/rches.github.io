@@ -42,7 +42,7 @@ html body{
 }
 
 #globe{
-  font-size: 30vh;
+  font-size: 50vh;
 }
 .visible{
   height: 100vh;
@@ -122,4 +122,8 @@ h1, h2, h3 {
 
 p, h4, table {
   font-family: 'Raleway', monospace;
+}
+
+p {
+  font-size: .9em;
 }
