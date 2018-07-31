@@ -9,10 +9,12 @@ html body{
   color: #CC4444;
 }
 
+/*Navigation pieces*/
+
 .navigationToggle {
   background: #2F2F35;
   color: #CC4444;
-  height: 70px;
+  height: 45px;
   width: 100vw;
   text-align: center;
   position: fixed;
@@ -41,13 +43,6 @@ html body{
    font-size: 9vh;
 }
 
-#globe{
-  font-size: 30vh;
-}
-.visible{
-  height: 100vh;
-}
-
 .color-swap{
   background-color: #CC4444;
   border-color: #2F2F35;
@@ -61,8 +56,10 @@ html body{
   padding-left: 0;
 }
 
+
 li {
   display: block;
+  list-style: none;
 }
 
 li a {
@@ -72,13 +69,40 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li a:hover, a:active {
     background-color: #2F2F35;
     color: #C6C7CE;
     text-decoration: none;
     transition: background-color .2s ease-in;
 }
 
+/*first panel Globe*/
+#globe{
+  font-size: 30vh;
+}
+
+/*portfolio + contact buttons */
+.port-buttons {
+  font-size: 20vh;
+  display: block;
+  color: #2F2F35;
+  text-decoration: none;
+}
+
+.port-buttons a {
+  display: block;
+  color: #2F2F35;
+  text-decoration: none;
+}
+
+.port-buttons a:hover, a:active {
+  background-color: #2F2F35;
+  color: #C6C7CE;
+  text-decoration: none;
+  transition: background-color .2s ease-in;
+}
+
+/*Body, section and header styling and formatting*/
 .sectionA{
     background-color: #2F2F35;
     color: #CC4444;
@@ -98,8 +122,6 @@ li a:hover {
 h1, h2, h3 {
   font-family: 'Righteous', cursive;
 }
-
-
 
 p, h4, table {
   font-family: 'Raleway', monospace;
