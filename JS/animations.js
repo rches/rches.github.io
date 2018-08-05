@@ -17,7 +17,7 @@ var showText = function (target, message, index, interval) {
 }
 
 $( document ).ready(function() {
-  showText("#msgOne", "console.log('Hello, World!')", 0, 100);
+  showText("#msgOne", "console.log('Hello, World!');", 0, 100);
 });
 
 $("#globe").fadeIn(10000);
