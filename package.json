@@ -1,7 +1,7 @@
 {
-  "name": "robs-website",
+  "name": "rches/rches.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "A portfolio website",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
