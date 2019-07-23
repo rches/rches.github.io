@@ -1,172 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="JS/animations.js"></script>
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Raleway|Righteous" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Rob's Dump</title>
-</head>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script src="src/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
 
-<body>
-
-
-<a href="#" class="toggle">
-<div class="navigationToggle">
-<span class="glyphicon glyphicon-menu-hamburger"></span>
-</div>
-</a>
-
-
-
-
-<div id="bottomNav" class="navigationSection">
-  <ul class="nav-list">
-    <li><a href="#home" class="toggle">Home</a></li>
-    <li><a href="#about" class="toggle">About</a></li>
-    <li><a href="#skills" class="toggle">Skills</a></li>
-    <li><a href="#portfolio" class="toggle">Portfolio</a></li>
-    <li><a href="#personal" class="toggle">Personal</a></li>
-    <li><a href="#contact" class="toggle">Contact</a></li>
-  </ul>
-</div>
-
-
-  <div id="home" class="col-sm-6 sectionA">
-    <h1>This is where I type</h1>
-    <h3><span id="msgOne"/></h3>
-    <p id="globe"><span class="glyphicon glyphicon-globe"></span></p>
-  </div>
-
-  <div id="about" class="col-sm-6 sectionB">
-    <h1>About</h1>
-
-    <h3>Who are you?</h3>
-    <p>Professionally, I am a self-taught web developer exploring the world of JavaScript. Somewhere between web design and web development you can often find me. Had I known that mucking around with the innards of a website could be a career path, I would have taken MySpace page layouts a little more seriously.</p>
-
-    <h3>Where did you come from?</h3>
-    <p>I have a long history with Design. Growing up I loved to sketch and draw; with time it started to look less bad. As time went on I slowly found myself in the technical classes for graphic design, and grew into a better understanding of communication and marketing in college. Like every good college student, I landed far outside my field of design by working first for the United States Navy and second for an ecommerce sales team. I'm currently a sales manager, but learning all I can to explore the world of code.</p>
-
-    <h3>What do you want?</h3>
-    <p>To learn, to help, to discover more. I'm walking through the traditional ways of learning web development with self-paced online courses, and a collection of half-baked projects. There is plenty to work on and lots of things that interest me - did you know NASA just gives their APIs away? - But if there is an opportunity to grow, I'll raise my hand first.</p>
-  </div>
-
-    <div id="skills" class="col-sm-6 sectionA">
-      <h1>Skills</h1>
-
- <table class="table">
-   <thead>
-     <tr>
-       <th><h4><span class="glyphicon glyphicon-folder-open"></span> Developer</h4></th>
-       <th><h4><span class="glyphicon glyphicon-erase"></span> Design</h4></th>
-       <th><h4><span class="glyphicon glyphicon-briefcase"></span> Professional</h4></th>
-     </tr>
-   </thead>
-   <tbody>
-     <tr>
-       <td>HTML5</td>
-       <td>Photoshop</td>
-       <td>Manager Exp</td>
-     </tr>
-
-     <tr>
-       <td>CSS3</td>
-       <td>Illustrator</td>
-       <td>Sales Leader</td>
-     </tr>
-
-     <tr>
-       <td>JavaScript (ES6)</td>
-       <td>InDesign</td>
-       <td>Design Oriented</td>
-     </tr>
-
-     <tr>
-       <td>JQuery</td>
-       <td>XD</td>
-       <td>Technical Writing</td>
-     </tr>
-
-     <tr>
-       <td>Bootstrap 4</td>
-       <td>Muse</td>
-       <td>Change Driven</td>
-     </tr>
-
-     <tr>
-       <td>More to come</td>
-       <td></td>
-       <td>Continued Learning</td>
-     </tr>
-   </tbody>
-   </table>
-</div>
-
-  <div id="portfolio" class="col-sm-6 sectionB">
-        <h1>Portfolio</h1>
-          <div class="row port-buttons">
-            <div class="col-md-4">
-                <a class="port-buttons" href=https://github.com/rches target="_blank">
-                  <i class="fa fa-github"></i>
-                </a>
-              </div>
-            <div class="col-md-4">
-                <a class="port-buttons" href=https://codepen.io/rches/ target="_blank">
-                  <i class="fa fa-codepen"></i>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a class="port-buttons" href=https://www.behance.net/robertcheseldine target="_blank">
-                  <i class="fa fa-behance"></i>
-                </a>
-            </div>
-          </div>
-        </div>
-
-
-
-
-
-      <div id="personal" class="col-sm-6 sectionA">
-        <h1>Fun Stuff</h1>
-        <h3>Personal</h3>
-        First and foremost I'm a husband and father. I learned that you're never really ready for anything, but that shouldn't make you put your life on pause. Whatever happens next is a surprise, to be sure, but a welcome one.
-        <h3>Free Time</h3>
-
-        <p>During my free time I enjoy a mix of the indoors and outdoors. Chances are I can talk to you about a video game we have both played, or a location in the Mid-Atlantic area that we have both hiked. I am an avid Magic: The Gathering player as well and have spent too much time flipping through pieces of cardboard.</p>
-
-        <h3>Volunteer</h3>
-
-        <p>I've taken time recently to spend my Wednesday evenings assisting with the youth ministry at my church. It's been an incredible experience learning with the youth of the parish and I'm incredibly glad that my wife talked me into it.</p>
-      </div>
-
-  <div id="contact" class="col-sm-6 sectionB">
-    <h1>Contact</h1>
-    <div class="row port-buttons">
-      <div class="col-md-4">
-          <a class="port-buttons" href=https://twitter.com/rcheseldine1 target="_blank">
-            <i class="fa fa-twitter"></i>
-          </a>
-        </div>
-      <div class="col-md-4">
-          <a class="port-buttons" href="mailto:robert.cheseldine@gmail.com?Subject=Website%20Inquiry" target="_top">
-            <i class="fa fa-envelope"></i>
-          </a>
-      </div>
-      <div class="col-md-4">
-          <a class="port-buttons" href=https://www.linkedin.com/in/robertcheseldine target="_blank">
-            <i class="fa fa-linkedin"></i>
-          </a>
-      </div>
+  <body>
+    <div class="nav-section hide" id="navigation">
+      <ul class="nav-bar">
+        <li>Projects</li>
+        <li>Github</li>
+        <li>Twitter</li>
+        <li>LinkedIn</li>
+        <li>Email</li>
+      </ul>
     </div>
-  </div>
-        </div>
 
+    <div id="navControl" class="container">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <!-- <button id="navControl">
+      navigation
+    </button> -->
+    <div id="site-wrapper">
+      <sitecontent>
+        <header>
+          <h1>My name is Rob</h1>
+          <img src="src/images/robheadshot.jpg" alt="" />
 
-</body>
+          <h3>How can I help?</h3>
+        </header>
+
+        <about>
+          <h2>About</h2>
+          <p>
+            I'm a web developer with experience in sales, operations and
+            leadership. I love working with people, but I found out that making
+            things from scratch is fun and challenging. I've self-taught my way
+            through multiple languages, libraries and frameworks, and I'm
+            happiest when I'm learning something new.
+          </p>
+        </about>
+        <projects>
+          <h2>Projects</h2>
+          <ul>
+            <li class="project-stuff">
+              <figure>
+                <img src="src/images/mars_rover_image.jpg" alt="" />
+              </figure>
+              <p>Mars Rover Viewer</p>
+            </li>
+            <li class="project-stuff">
+              <figure>
+                <img src="src/images/bruce_allen.jpg" alt="Bruce Allen" />
+              </figure>
+              <p>Bruce Allen Tracker</p>
+            </li>
+            <li class="project-stuff">
+              <figure>
+                <img
+                  src="src/images/magic_cards.jpg"
+                  alt="A Stack of Magic Cards"
+                />
+              </figure>
+              <p>Collectible Card Buy and Sell Tool</p>
+            </li>
+            <li>
+              <figure>
+                <img src="src/images/github-octocat.png" alt="Github Logo" />
+              </figure>
+              <p>Full Github Repo</p>
+            </li>
+          </ul>
+        </projects>
+      </sitecontent>
+    </div>
+  </body>
 </html>
