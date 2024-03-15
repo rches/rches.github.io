@@ -122,7 +122,8 @@ function updateCanvas() {
 
 // Start the video stream
 navigator.mediaDevices.getUserMedia(
-    { video: true }, // Ask for video
+    { video: true,
+    facingMode: 'environment'}, // Ask for video
 ).then((stream) => {
     // Set up the video and canvas elements.
     video.srcObject = stream;
